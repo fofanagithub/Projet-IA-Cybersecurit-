@@ -1,0 +1,180 @@
+{
+ "macro_DR": {
+  "LogReg": 0.5597409680201869,
+  "DecisionTree": 0.5441609866862774,
+  "RandomForest": 0.4202047590389927,
+  "LightGBM": 0.5437240157124282,
+  "MLP": 0.4646830834757021
+ },
+ "FPR": {
+  "DecisionTree": 0.002255178558170614,
+  "LightGBM": 0.0007192441903630559,
+  "LogReg": 0.01457977578142401,
+  "MLP": 0.001999962877719207,
+  "RandomForest": 0.0005197119311010468
+ },
+ "spearman_lao_vs_test_novel": -0.09999999999999999,
+ "spearman_cvF1_vs_test_novel": 0.19999999999999998,
+ "table": [
+  {
+   "attack": "back",
+   "category": "DoS",
+   "n": 956,
+   "LogReg": 0.0,
+   "DecisionTree": 0.05439330543933055,
+   "RandomForest": 0.0,
+   "LightGBM": 0.0,
+   "MLP": 0.0
+  },
+  {
+   "attack": "buffer_overflow",
+   "category": "U2R",
+   "n": 30,
+   "LogReg": 0.8,
+   "DecisionTree": 0.5333333333333333,
+   "RandomForest": 0.13333333333333333,
+   "LightGBM": 0.36666666666666664,
+   "MLP": 0.1
+  },
+  {
+   "attack": "guess_passwd",
+   "category": "R2L",
+   "n": 53,
+   "LogReg": 0.5471698113207547,
+   "DecisionTree": 1.0,
+   "RandomForest": 0.0,
+   "LightGBM": 0.018867924528301886,
+   "MLP": 0.07547169811320754
+  },
+  {
+   "attack": "imap",
+   "category": "R2L",
+   "n": 11,
+   "LogReg": 0.7272727272727273,
+   "DecisionTree": 0.7272727272727273,
+   "RandomForest": 0.36363636363636365,
+   "LightGBM": 0.7272727272727273,
+   "MLP": 0.7272727272727273
+  },
+  {
+   "attack": "ipsweep",
+   "category": "Probe",
+   "n": 3599,
+   "LogReg": 0.9233120311197555,
+   "DecisionTree": 0.9024729091414282,
+   "RandomForest": 0.8363434287302028,
+   "LightGBM": 0.8841344818005001,
+   "MLP": 0.8085579327590997
+  },
+  {
+   "attack": "land",
+   "category": "DoS",
+   "n": 18,
+   "LogReg": 0.0,
+   "DecisionTree": 0.0,
+   "RandomForest": 0.2222222222222222,
+   "LightGBM": 0.16666666666666666,
+   "MLP": 0.0
+  },
+  {
+   "attack": "neptune",
+   "category": "DoS",
+   "n": 41214,
+   "LogReg": 0.6922405008006988,
+   "DecisionTree": 0.888144805163294,
+   "RandomForest": 0.7131314601834328,
+   "LightGBM": 0.8803561896442956,
+   "MLP": 0.9566652108506818
+  },
+  {
+   "attack": "nmap",
+   "category": "Probe",
+   "n": 1493,
+   "LogReg": 0.8519758874748827,
+   "DecisionTree": 0.8345612860013396,
+   "RandomForest": 0.8345612860013396,
+   "LightGBM": 0.8345612860013396,
+   "MLP": 0.8338914936369726
+  },
+  {
+   "attack": "pod",
+   "category": "DoS",
+   "n": 201,
+   "LogReg": 0.9850746268656716,
+   "DecisionTree": 0.9850746268656716,
+   "RandomForest": 0.6019900497512438,
+   "LightGBM": 0.9850746268656716,
+   "MLP": 0.9203980099502488
+  },
+  {
+   "attack": "portsweep",
+   "category": "Probe",
+   "n": 2931,
+   "LogReg": 0.9863527806209484,
+   "DecisionTree": 0.41760491299897645,
+   "RandomForest": 0.784373933810986,
+   "LightGBM": 0.9641760491299898,
+   "MLP": 0.6062777209143637
+  },
+  {
+   "attack": "rootkit",
+   "category": "U2R",
+   "n": 10,
+   "LogReg": 0.2,
+   "DecisionTree": 0.1,
+   "RandomForest": 0.0,
+   "LightGBM": 0.0,
+   "MLP": 0.1
+  },
+  {
+   "attack": "satan",
+   "category": "Probe",
+   "n": 3633,
+   "LogReg": 0.6454720616570327,
+   "DecisionTree": 0.9110927608037435,
+   "RandomForest": 0.8648499862372695,
+   "LightGBM": 0.9229287090558767,
+   "MLP": 0.8898981557941096
+  },
+  {
+   "attack": "smurf",
+   "category": "DoS",
+   "n": 2646,
+   "LogReg": 0.581254724111867,
+   "DecisionTree": 0.0003779289493575208,
+   "RandomForest": 0.0,
+   "LightGBM": 0.0,
+   "MLP": 0.001889644746787604
+  },
+  {
+   "attack": "teardrop",
+   "category": "DoS",
+   "n": 892,
+   "LogReg": 1.0,
+   "DecisionTree": 1.0,
+   "RandomForest": 0.8688340807174888,
+   "LightGBM": 0.9988789237668162,
+   "MLP": 1.0
+  },
+  {
+   "attack": "warezclient",
+   "category": "R2L",
+   "n": 890,
+   "LogReg": 0.015730337078651686,
+   "DecisionTree": 0.0022471910112359553,
+   "RandomForest": 0.0,
+   "LightGBM": 0.0,
+   "MLP": 0.014606741573033709
+  },
+  {
+   "attack": "warezmaster",
+   "category": "R2L",
+   "n": 20,
+   "LogReg": 0.0,
+   "DecisionTree": 0.35,
+   "RandomForest": 0.5,
+   "LightGBM": 0.95,
+   "MLP": 0.4
+  }
+ ]
+}

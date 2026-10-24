@@ -1,0 +1,642 @@
+{
+ "neptune|LogReg": {
+  "attack": "neptune",
+  "category": "DoS",
+  "n": 41214,
+  "model": "LogReg",
+  "DR": 0.6922405008006988,
+  "FPR": 0.013289776523869626
+ },
+ "neptune|DecisionTree": {
+  "attack": "neptune",
+  "category": "DoS",
+  "n": 41214,
+  "model": "DecisionTree",
+  "DR": 0.888144805163294,
+  "FPR": 0.002153092285990051
+ },
+ "neptune|RandomForest": {
+  "attack": "neptune",
+  "category": "DoS",
+  "n": 41214,
+  "model": "RandomForest",
+  "DR": 0.7131314601834328,
+  "FPR": 0.0003712228079293192
+ },
+ "neptune|LightGBM": {
+  "attack": "neptune",
+  "category": "DoS",
+  "n": 41214,
+  "model": "LightGBM",
+  "DR": 0.8803561896442956,
+  "FPR": 0.0005939564926869107
+ },
+ "neptune|MLP": {
+  "attack": "neptune",
+  "category": "DoS",
+  "n": 41214,
+  "model": "MLP",
+  "DR": 0.9566652108506818,
+  "FPR": 0.0024500705323335066
+ },
+ "satan|LogReg": {
+  "attack": "satan",
+  "category": "Probe",
+  "n": 3633,
+  "model": "LogReg",
+  "DR": 0.6454720616570327,
+  "FPR": 0.014403444947657584
+ },
+ "satan|DecisionTree": {
+  "attack": "satan",
+  "category": "Probe",
+  "n": 3633,
+  "model": "DecisionTree",
+  "DR": 0.9110927608037435,
+  "FPR": 0.002153092285990051
+ },
+ "satan|RandomForest": {
+  "attack": "satan",
+  "category": "Probe",
+  "n": 3633,
+  "model": "RandomForest",
+  "DR": 0.8648499862372695,
+  "FPR": 0.000445467369515183
+ },
+ "satan|LightGBM": {
+  "attack": "satan",
+  "category": "Probe",
+  "n": 3633,
+  "model": "LightGBM",
+  "DR": 0.9229287090558767,
+  "FPR": 0.0005197119311010468
+ },
+ "satan|MLP": {
+  "attack": "satan",
+  "category": "Probe",
+  "n": 3633,
+  "model": "MLP",
+  "DR": 0.8898981557941096,
+  "FPR": 0.001781869478060732
+ },
+ "ipsweep|LogReg": {
+  "attack": "ipsweep",
+  "category": "Probe",
+  "n": 3599,
+  "model": "LogReg",
+  "DR": 0.9233120311197555,
+  "FPR": 0.013289776523869626
+ },
+ "ipsweep|DecisionTree": {
+  "attack": "ipsweep",
+  "category": "Probe",
+  "n": 3599,
+  "model": "DecisionTree",
+  "DR": 0.9024729091414282,
+  "FPR": 0.002598559655505234
+ },
+ "ipsweep|RandomForest": {
+  "attack": "ipsweep",
+  "category": "Probe",
+  "n": 3599,
+  "model": "RandomForest",
+  "DR": 0.8363434287302028,
+  "FPR": 0.0005939564926869107
+ },
+ "ipsweep|LightGBM": {
+  "attack": "ipsweep",
+  "category": "Probe",
+  "n": 3599,
+  "model": "LightGBM",
+  "DR": 0.8841344818005001,
+  "FPR": 0.0007424456158586384
+ },
+ "ipsweep|MLP": {
+  "attack": "ipsweep",
+  "category": "Probe",
+  "n": 3599,
+  "model": "MLP",
+  "DR": 0.8085579327590997,
+  "FPR": 0.0014848912317172768
+ },
+ "portsweep|LogReg": {
+  "attack": "portsweep",
+  "category": "Probe",
+  "n": 2931,
+  "model": "LogReg",
+  "DR": 0.9863527806209484,
+  "FPR": 0.015591357933031406
+ },
+ "portsweep|DecisionTree": {
+  "attack": "portsweep",
+  "category": "Probe",
+  "n": 2931,
+  "model": "DecisionTree",
+  "DR": 0.41760491299897645,
+  "FPR": 0.0024500705323335066
+ },
+ "portsweep|RandomForest": {
+  "attack": "portsweep",
+  "category": "Probe",
+  "n": 2931,
+  "model": "RandomForest",
+  "DR": 0.784373933810986,
+  "FPR": 0.0005197119311010468
+ },
+ "portsweep|LightGBM": {
+  "attack": "portsweep",
+  "category": "Probe",
+  "n": 2931,
+  "model": "LightGBM",
+  "DR": 0.9641760491299898,
+  "FPR": 0.0006682010542727745
+ },
+ "portsweep|MLP": {
+  "attack": "portsweep",
+  "category": "Probe",
+  "n": 2931,
+  "model": "MLP",
+  "DR": 0.6062777209143637,
+  "FPR": 0.0023015814091617787
+ },
+ "smurf|LogReg": {
+  "attack": "smurf",
+  "category": "DoS",
+  "n": 2646,
+  "model": "LogReg",
+  "DR": 0.581254724111867,
+  "FPR": 0.014477689509243448
+ },
+ "smurf|DecisionTree": {
+  "attack": "smurf",
+  "category": "DoS",
+  "n": 2646,
+  "model": "DecisionTree",
+  "DR": 0.0003779289493575208,
+  "FPR": 0.002227336847575915
+ },
+ "smurf|RandomForest": {
+  "attack": "smurf",
+  "category": "DoS",
+  "n": 2646,
+  "model": "RandomForest",
+  "DR": 0.0,
+  "FPR": 0.0005939564926869107
+ },
+ "smurf|LightGBM": {
+  "attack": "smurf",
+  "category": "DoS",
+  "n": 2646,
+  "model": "LightGBM",
+  "DR": 0.0,
+  "FPR": 0.0007424456158586384
+ },
+ "smurf|MLP": {
+  "attack": "smurf",
+  "category": "DoS",
+  "n": 2646,
+  "model": "MLP",
+  "DR": 0.001889644746787604,
+  "FPR": 0.001336402108545549
+ },
+ "nmap|LogReg": {
+  "attack": "nmap",
+  "category": "Probe",
+  "n": 1493,
+  "model": "LogReg",
+  "DR": 0.8519758874748827,
+  "FPR": 0.014106466701314128
+ },
+ "nmap|DecisionTree": {
+  "attack": "nmap",
+  "category": "Probe",
+  "n": 1493,
+  "model": "DecisionTree",
+  "DR": 0.8345612860013396,
+  "FPR": 0.0023758259707476427
+ },
+ "nmap|RandomForest": {
+  "attack": "nmap",
+  "category": "Probe",
+  "n": 1493,
+  "model": "RandomForest",
+  "DR": 0.8345612860013396,
+  "FPR": 0.0005939564926869107
+ },
+ "nmap|LightGBM": {
+  "attack": "nmap",
+  "category": "Probe",
+  "n": 1493,
+  "model": "LightGBM",
+  "DR": 0.8345612860013396,
+  "FPR": 0.000890934739030366
+ },
+ "nmap|MLP": {
+  "attack": "nmap",
+  "category": "Probe",
+  "n": 1493,
+  "model": "MLP",
+  "DR": 0.8338914936369726,
+  "FPR": 0.0015591357933031405
+ },
+ "back|LogReg": {
+  "attack": "back",
+  "category": "DoS",
+  "n": 956,
+  "model": "LogReg",
+  "DR": 0.0,
+  "FPR": 0.012695820031182716
+ },
+ "back|DecisionTree": {
+  "attack": "back",
+  "category": "DoS",
+  "n": 956,
+  "model": "DecisionTree",
+  "DR": 0.05439330543933055,
+  "FPR": 0.0019303586012324597
+ },
+ "back|RandomForest": {
+  "attack": "back",
+  "category": "DoS",
+  "n": 956,
+  "model": "RandomForest",
+  "DR": 0.0,
+  "FPR": 0.0005197119311010468
+ },
+ "back|LightGBM": {
+  "attack": "back",
+  "category": "DoS",
+  "n": 956,
+  "model": "LightGBM",
+  "DR": 0.0,
+  "FPR": 0.0007424456158586384
+ },
+ "back|MLP": {
+  "attack": "back",
+  "category": "DoS",
+  "n": 956,
+  "model": "MLP",
+  "DR": 0.0,
+  "FPR": 0.0023758259707476427
+ },
+ "teardrop|LogReg": {
+  "attack": "teardrop",
+  "category": "DoS",
+  "n": 892,
+  "model": "LogReg",
+  "DR": 1.0,
+  "FPR": 0.016408048110475908
+ },
+ "teardrop|DecisionTree": {
+  "attack": "teardrop",
+  "category": "DoS",
+  "n": 892,
+  "model": "DecisionTree",
+  "DR": 1.0,
+  "FPR": 0.0025243150939193706
+ },
+ "teardrop|RandomForest": {
+  "attack": "teardrop",
+  "category": "DoS",
+  "n": 892,
+  "model": "RandomForest",
+  "DR": 0.8688340807174888,
+  "FPR": 0.0005939564926869107
+ },
+ "teardrop|LightGBM": {
+  "attack": "teardrop",
+  "category": "DoS",
+  "n": 892,
+  "model": "LightGBM",
+  "DR": 0.9988789237668162,
+  "FPR": 0.000890934739030366
+ },
+ "teardrop|MLP": {
+  "attack": "teardrop",
+  "category": "DoS",
+  "n": 892,
+  "model": "MLP",
+  "DR": 1.0,
+  "FPR": 0.0020788477244041872
+ },
+ "warezclient|LogReg": {
+  "attack": "warezclient",
+  "category": "R2L",
+  "n": 890,
+  "model": "LogReg",
+  "DR": 0.015730337078651686,
+  "FPR": 0.010023015814091618
+ },
+ "warezclient|DecisionTree": {
+  "attack": "warezclient",
+  "category": "R2L",
+  "n": 890,
+  "model": "DecisionTree",
+  "DR": 0.0022471910112359553,
+  "FPR": 0.002227336847575915
+ },
+ "warezclient|RandomForest": {
+  "attack": "warezclient",
+  "category": "R2L",
+  "n": 890,
+  "model": "RandomForest",
+  "DR": 0.0,
+  "FPR": 0.0005939564926869107
+ },
+ "warezclient|LightGBM": {
+  "attack": "warezclient",
+  "category": "R2L",
+  "n": 890,
+  "model": "LightGBM",
+  "DR": 0.0,
+  "FPR": 0.0007424456158586384
+ },
+ "warezclient|MLP": {
+  "attack": "warezclient",
+  "category": "R2L",
+  "n": 890,
+  "model": "MLP",
+  "DR": 0.014606741573033709,
+  "FPR": 0.0015591357933031405
+ },
+ "pod|LogReg": {
+  "attack": "pod",
+  "category": "DoS",
+  "n": 201,
+  "model": "LogReg",
+  "DR": 0.9850746268656716,
+  "FPR": 0.01603682530254659
+ },
+ "pod|DecisionTree": {
+  "attack": "pod",
+  "category": "DoS",
+  "n": 201,
+  "model": "DecisionTree",
+  "DR": 0.9850746268656716,
+  "FPR": 0.002598559655505234
+ },
+ "pod|RandomForest": {
+  "attack": "pod",
+  "category": "DoS",
+  "n": 201,
+  "model": "RandomForest",
+  "DR": 0.6019900497512438,
+  "FPR": 0.0005939564926869107
+ },
+ "pod|LightGBM": {
+  "attack": "pod",
+  "category": "DoS",
+  "n": 201,
+  "model": "LightGBM",
+  "DR": 0.9850746268656716,
+  "FPR": 0.0008166901774445021
+ },
+ "pod|MLP": {
+  "attack": "pod",
+  "category": "DoS",
+  "n": 201,
+  "model": "MLP",
+  "DR": 0.9203980099502488,
+  "FPR": 0.0020788477244041872
+ },
+ "guess_passwd|LogReg": {
+  "attack": "guess_passwd",
+  "category": "R2L",
+  "n": 53,
+  "model": "LogReg",
+  "DR": 0.5471698113207547,
+  "FPR": 0.015962580740960724
+ },
+ "guess_passwd|DecisionTree": {
+  "attack": "guess_passwd",
+  "category": "R2L",
+  "n": 53,
+  "model": "DecisionTree",
+  "DR": 1.0,
+  "FPR": 0.0023015814091617787
+ },
+ "guess_passwd|RandomForest": {
+  "attack": "guess_passwd",
+  "category": "R2L",
+  "n": 53,
+  "model": "RandomForest",
+  "DR": 0.0,
+  "FPR": 0.0005939564926869107
+ },
+ "guess_passwd|LightGBM": {
+  "attack": "guess_passwd",
+  "category": "R2L",
+  "n": 53,
+  "model": "LightGBM",
+  "DR": 0.018867924528301886,
+  "FPR": 0.0007424456158586384
+ },
+ "guess_passwd|MLP": {
+  "attack": "guess_passwd",
+  "category": "R2L",
+  "n": 53,
+  "model": "MLP",
+  "DR": 0.07547169811320754,
+  "FPR": 0.0034894943945356005
+ },
+ "buffer_overflow|LogReg": {
+  "attack": "buffer_overflow",
+  "category": "U2R",
+  "n": 30,
+  "model": "LogReg",
+  "DR": 0.8,
+  "FPR": 0.015665602494617268
+ },
+ "buffer_overflow|DecisionTree": {
+  "attack": "buffer_overflow",
+  "category": "U2R",
+  "n": 30,
+  "model": "DecisionTree",
+  "DR": 0.5333333333333333,
+  "FPR": 0.002227336847575915
+ },
+ "buffer_overflow|RandomForest": {
+  "attack": "buffer_overflow",
+  "category": "U2R",
+  "n": 30,
+  "model": "RandomForest",
+  "DR": 0.13333333333333333,
+  "FPR": 0.0005197119311010468
+ },
+ "buffer_overflow|LightGBM": {
+  "attack": "buffer_overflow",
+  "category": "U2R",
+  "n": 30,
+  "model": "LightGBM",
+  "DR": 0.36666666666666664,
+  "FPR": 0.0007424456158586384
+ },
+ "buffer_overflow|MLP": {
+  "attack": "buffer_overflow",
+  "category": "U2R",
+  "n": 30,
+  "model": "MLP",
+  "DR": 0.1,
+  "FPR": 0.0020788477244041872
+ },
+ "warezmaster|LogReg": {
+  "attack": "warezmaster",
+  "category": "R2L",
+  "n": 20,
+  "model": "LogReg",
+  "DR": 0.0,
+  "FPR": 0.014551934070829312
+ },
+ "warezmaster|DecisionTree": {
+  "attack": "warezmaster",
+  "category": "R2L",
+  "n": 20,
+  "model": "DecisionTree",
+  "DR": 0.35,
+  "FPR": 0.002153092285990051
+ },
+ "warezmaster|RandomForest": {
+  "attack": "warezmaster",
+  "category": "R2L",
+  "n": 20,
+  "model": "RandomForest",
+  "DR": 0.5,
+  "FPR": 0.0005197119311010468
+ },
+ "warezmaster|LightGBM": {
+  "attack": "warezmaster",
+  "category": "R2L",
+  "n": 20,
+  "model": "LightGBM",
+  "DR": 0.95,
+  "FPR": 0.0008166901774445021
+ },
+ "warezmaster|MLP": {
+  "attack": "warezmaster",
+  "category": "R2L",
+  "n": 20,
+  "model": "MLP",
+  "DR": 0.4,
+  "FPR": 0.001781869478060732
+ },
+ "land|LogReg": {
+  "attack": "land",
+  "category": "DoS",
+  "n": 18,
+  "model": "LogReg",
+  "DR": 0.0,
+  "FPR": 0.015739847056203134
+ },
+ "land|DecisionTree": {
+  "attack": "land",
+  "category": "DoS",
+  "n": 18,
+  "model": "DecisionTree",
+  "DR": 0.0,
+  "FPR": 0.001856114039646596
+ },
+ "land|RandomForest": {
+  "attack": "land",
+  "category": "DoS",
+  "n": 18,
+  "model": "RandomForest",
+  "DR": 0.2222222222222222,
+  "FPR": 0.0003712228079293192
+ },
+ "land|LightGBM": {
+  "attack": "land",
+  "category": "DoS",
+  "n": 18,
+  "model": "LightGBM",
+  "DR": 0.16666666666666666,
+  "FPR": 0.000445467369515183
+ },
+ "land|MLP": {
+  "attack": "land",
+  "category": "DoS",
+  "n": 18,
+  "model": "MLP",
+  "DR": 0.0,
+  "FPR": 0.001781869478060732
+ },
+ "imap|LogReg": {
+  "attack": "imap",
+  "category": "R2L",
+  "n": 11,
+  "model": "LogReg",
+  "DR": 0.7272727272727273,
+  "FPR": 0.015591357933031406
+ },
+ "imap|DecisionTree": {
+  "attack": "imap",
+  "category": "R2L",
+  "n": 11,
+  "model": "DecisionTree",
+  "DR": 0.7272727272727273,
+  "FPR": 0.0023015814091617787
+ },
+ "imap|RandomForest": {
+  "attack": "imap",
+  "category": "R2L",
+  "n": 11,
+  "model": "RandomForest",
+  "DR": 0.36363636363636365,
+  "FPR": 0.0005197119311010468
+ },
+ "imap|LightGBM": {
+  "attack": "imap",
+  "category": "R2L",
+  "n": 11,
+  "model": "LightGBM",
+  "DR": 0.7272727272727273,
+  "FPR": 0.0007424456158586384
+ },
+ "imap|MLP": {
+  "attack": "imap",
+  "category": "R2L",
+  "n": 11,
+  "model": "MLP",
+  "DR": 0.7272727272727273,
+  "FPR": 0.0016333803548890043
+ },
+ "rootkit|LogReg": {
+  "attack": "rootkit",
+  "category": "U2R",
+  "n": 10,
+  "model": "LogReg",
+  "DR": 0.2,
+  "FPR": 0.015442868809859678
+ },
+ "rootkit|DecisionTree": {
+  "attack": "rootkit",
+  "category": "U2R",
+  "n": 10,
+  "model": "DecisionTree",
+  "DR": 0.1,
+  "FPR": 0.0020046031628183237
+ },
+ "rootkit|RandomForest": {
+  "attack": "rootkit",
+  "category": "U2R",
+  "n": 10,
+  "model": "RandomForest",
+  "DR": 0.0,
+  "FPR": 0.0003712228079293192
+ },
+ "rootkit|LightGBM": {
+  "attack": "rootkit",
+  "category": "U2R",
+  "n": 10,
+  "model": "LightGBM",
+  "DR": 0.0,
+  "FPR": 0.0006682010542727745
+ },
+ "rootkit|MLP": {
+  "attack": "rootkit",
+  "category": "U2R",
+  "n": 10,
+  "model": "MLP",
+  "DR": 0.1,
+  "FPR": 0.002227336847575915
+ }
+}

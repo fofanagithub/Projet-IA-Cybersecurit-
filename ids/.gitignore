@@ -1,0 +1,24 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Données NSL-KDD : téléchargées par les commandes du README (≈ 24 Mo, empreintes SHA-256 vérifiables)
+data/
+
+# Prédictions brutes produites par 02_experiments.py (≈ 44 Mo, régénérables).
+# Sans elles, 03_analysis.py ne peut être relancé qu'après 02_experiments.py.
+results/preds/
+
+# Journaux et sauvegarde de la reproduction locale (les journaux d'origine run0*.log sont conservés)
+results/rerun_*.log
+results_original/
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

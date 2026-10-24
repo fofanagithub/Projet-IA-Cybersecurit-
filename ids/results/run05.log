@@ -1,0 +1,93 @@
+/usr/local/lib/python3.13/dist-packages/shap/explainers/_tree.py:578: UserWarning: LightGBM binary classifier with TreeExplainer shap values output has changed to a list of ndarray
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/shap/explainers/_tree.py:578: UserWarning: LightGBM binary classifier with TreeExplainer shap values output has changed to a list of ndarray
+  warnings.warn(
+aucune (toutes variables) {'F1': 0.765, 'AUC': 0.9652, 'DR_seen': 0.7705, 'DR_novel': 0.2988, 'FPR': 0.028}
+basic (intrinsèques) {'F1': 0.735, 'AUC': 0.942, 'DR_seen': 0.7697, 'DR_novel': 0.2188, 'FPR': 0.0628}
+content (contenu) {'F1': 0.7735, 'AUC': 0.9661, 'DR_seen': 0.7684, 'DR_novel': 0.3429, 'FPR': 0.0279}
+time-based traffic (2 s) {'F1': 0.7665, 'AUC': 0.9645, 'DR_seen': 0.7633, 'DR_novel': 0.324, 'FPR': 0.0286}
+host-based traffic (100 conn.) {'F1': 0.8104, 'AUC': 0.9658, 'DR_seen': 0.7582, 'DR_novel': 0.5614, 'FPR': 0.0378}
+{
+ "shap_top15": {
+  "src_bytes": 4.0441,
+  "service": 1.9429,
+  "dst_host_srv_count": 1.3119,
+  "dst_bytes": 1.2351,
+  "count": 1.0078,
+  "dst_host_srv_serror_rate": 0.7646,
+  "dst_host_rerror_rate": 0.6377,
+  "dst_host_serror_rate": 0.6216,
+  "dst_host_same_srv_rate": 0.5667,
+  "dst_host_diff_srv_rate": 0.5297,
+  "dst_host_same_src_port_rate": 0.4931,
+  "protocol_type": 0.4549,
+  "flag": 0.3676,
+  "diff_srv_rate": 0.3244,
+  "dst_host_count": 0.3028
+ },
+ "shap_by_group_share": {
+  "basic (intrinsèques)": 0.4912,
+  "content (contenu)": 0.0307,
+  "host-based traffic (100 conn.)": 0.3359,
+  "time-based traffic (2 s)": 0.1422
+ },
+ "shap_missed_novel_most_negative": {
+  "count": -1.6301,
+  "dst_host_same_src_port_rate": -0.7861,
+  "dst_host_serror_rate": -0.6464,
+  "dst_bytes": -0.5489,
+  "dst_host_same_srv_rate": -0.508,
+  "dst_host_diff_srv_rate": -0.387,
+  "flag": -0.3514,
+  "dst_host_srv_serror_rate": -0.3429,
+  "same_srv_rate": -0.3419,
+  "protocol_type": -0.3304
+ },
+ "missed_novel_types": {
+  "mscan": 627,
+  "processtable": 569,
+  "snmpguess": 331,
+  "mailbomb": 293,
+  "apache2": 232,
+  "snmpgetattack": 178,
+  "httptunnel": 131,
+  "named": 14
+ },
+ "ablation_lightgbm": {
+  "aucune (toutes variables)": {
+   "F1": 0.765,
+   "AUC": 0.9652,
+   "DR_seen": 0.7705,
+   "DR_novel": 0.2988,
+   "FPR": 0.028
+  },
+  "basic (intrinsèques)": {
+   "F1": 0.735,
+   "AUC": 0.942,
+   "DR_seen": 0.7697,
+   "DR_novel": 0.2188,
+   "FPR": 0.0628
+  },
+  "content (contenu)": {
+   "F1": 0.7735,
+   "AUC": 0.9661,
+   "DR_seen": 0.7684,
+   "DR_novel": 0.3429,
+   "FPR": 0.0279
+  },
+  "time-based traffic (2 s)": {
+   "F1": 0.7665,
+   "AUC": 0.9645,
+   "DR_seen": 0.7633,
+   "DR_novel": 0.324,
+   "FPR": 0.0286
+  },
+  "host-based traffic (100 conn.)": {
+   "F1": 0.8104,
+   "AUC": 0.9658,
+   "DR_seen": 0.7582,
+   "DR_novel": 0.5614,
+   "FPR": 0.0378
+  }
+ }
+}

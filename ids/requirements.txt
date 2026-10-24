@@ -1,0 +1,8 @@
+# Versions avec lesquelles les résultats de results/ ont été reproduits (Python 3.12)
+scikit-learn==1.9.1
+lightgbm==4.7.0
+shap==0.54.1
+pandas==3.0.6
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
